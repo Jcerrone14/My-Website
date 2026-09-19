@@ -2,8 +2,83 @@
 <html>
     <head>
         <title>Jack Cerrone's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+        <div id="preamble">
+            <div id="intro">
+                <h1> I am Jack Cerrone </h1>
+                <p id="about-container">
+                    I am a freshman at RPI studying mathematics and physics.
+                    I'm a big fan of theoretical particle physics and differential geometry.
+                </p>
+                <a id="resume" href="Resume.pdf">See my Resume</a>
+                <button id="dark-mode-button">Toggle Dark Mode</button>
+                <script src="script.js"></script>
+            </div>
+            <div id="oliver-container">
+                <img id="oliver-image" alt="This is my goat Oliver Garza" src="oliver_geeked.jpeg">
+            </div>
+        </div>
 
+        <div id="skills-container">
+            <h2 id="skills-title">Skills</h2>
+            <div id="skills-layout">
+                <div class="skill-group">
+                    <h3 class="group-header">Mathematics</h3>
+                    <ol class="skill-tags">
+                        <li>Differential Calculus</li>
+                        <li>Integral Calculus</li>
+                        <li>Multivariable Calculus</li>
+                        <li>Ordinary Differential Equations</li>
+                        <li>Linear Algebra</li>
+                        <li>Partial Differential Equations</li>
+                        <li>Tensor Calculus</li>
+
+                    </ol>
+                </div>
+                <div class="skill-group">
+                    <h3 class="group-header">Physics</h3>
+                    <ol class="skill-tags">
+                        <li>Classical Mechanics</li>
+                        <li>Electricity & Magnetism</li>
+                        <li>Modern Physics</li>
+                        <li>Quantum Mechanics</li>
+                        
+                    </ol>
+                </div>
+                <div class="skill-group">
+                    <h3 class="group-header">Computation</h3>
+                    <ul class="skill-tags">
+                        <li>Python</li>
+                        <li>MATLAB</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects-container">
+            <h2 id="projects-title">Projects</h2>
+            <div id="projects-layout">
+                <div class="projects-group">
+                    <h3 class="group-header">A Teenager's Guide to Mathematics</h3>
+                    <p>
+                        A Teenager's Guide to Mathematics is a ~200 page book that represents the culmination of all my mathematics knowledge before starting my undergraduate degree.
+                        It has chapters on: Calculus I, Calculus II, Multivariable Calculus, Ordinary Differential Equations,
+                        Linear Algebra, Partial Differential Equations, and Tensor Calculus.
+                    </p>
+                </div>
+                <div class="projects-group">
+                    <h3 class="group-header">Real World Design Challenge</h3>
+                    <p>
+                        I was the Team and Design lead for the Baldwinsville NY team participating in the Real World Design Challenge (RWDC).
+                        The RWDC posed real challeges currently happening in the world to teams of high school students.
+                        Our team designed an industrial hexacopter to deliver critical supplies to first responders in a wildfire situation.
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
