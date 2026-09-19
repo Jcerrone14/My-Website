@@ -59,8 +59,8 @@ p {
 #preamble::after {
     content: "R\03bc\03bd \2212 \00bd R g\03bc\03bd = 8\03c0G T\03bc\03bd";
     position: absolute;
-    right: -30px;
-    bottom: -28px;
+    right: 30px;
+    bottom: 4px;
     font-family: "Source Serif 4", serif;
     font-style: italic;
     font-size: 58px;
